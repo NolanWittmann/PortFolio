@@ -1,0 +1,19 @@
+.profile {
+    display: flex;
+    align-items: center;
+    width: 35%;
+
+    h2 {
+        font-size: 1.8rem;
+        min-width: 300px;
+        font-style: italic;
+        @media screen and (max-width: 900px) {
+            display: none;
+        }
+    }
+    img {
+        border-radius: 50%;
+        border: 2px solid white;
+        margin-right: 5%;
+    }
+}

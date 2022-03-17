@@ -1,0 +1,40 @@
+.navigation {
+    width: 45%;
+
+    .navigation__ul {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        @media screen and (max-width: 900px) {
+            display: none;
+        }
+    }
+    .navigation__navlink {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .navigation__little-screen {
+        display: none;
+        @media screen and (max-width: 900px) {
+            display: block;
+        }
+    }
+    .navigation__little-screen__ul {
+        @media screen and (max-width: 900px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .navigation__little-screen__li {
+        display: none;
+        @media screen and (max-width: 900px) {
+            display: block;
+            margin-top: 5%;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
