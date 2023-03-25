@@ -12,7 +12,12 @@ const Navigation = () => {
     return (
         <div className='navigation'>
 
-            <button onClick={handleClick} className="navigation__little-screen"><img src="./assets/menu.png" alt="" height="40px" /></button>
+            <button onClick={handleClick} className="navigation__little-screen"><div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </button>
 
             <ul className='navigation__ul'>
                 <NavLink to="#" className="navigation__navlink"> About</NavLink>

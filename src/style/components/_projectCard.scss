@@ -1,0 +1,17 @@
+.projectCard {
+    .projectCard__h1 {
+        text-align: center;
+        font-size: 1.6rem;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+    .projectCard__img {
+        height: 300px;
+        width: 400px;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+}

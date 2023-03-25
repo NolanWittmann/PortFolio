@@ -1,14 +1,14 @@
 import React from 'react';
 import DevFull from '../Component/DevFull';
 import Header from '../Component/Header';
-import Logo from '../Component/Logo';
+import Projects from '../Component/Projects';
 
 const Home = () => {
     return (
         <div>
             <Header />
             <DevFull />
-            <Logo />
+            <Projects />
         </div>
     );
 };
